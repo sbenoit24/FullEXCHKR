@@ -1,0 +1,132 @@
+:root {
+  /* =========================================
+     BRAND COLORS (Directly from Figma)
+     ========================================= */
+  --brand-navy: #122b5b;
+  --brand-gold: #c39a4e;
+  --brand-sky: #b8dfff;
+  --brand-black: #000000;
+  --brand-white: #ffffff;
+
+  /* =========================================
+     SEMANTIC COLORS
+     ========================================= */
+  --primary: #122b5b;
+  --secondary: #b8dfff;
+  --accent: #c39a4e;
+  --destructive: #fb2c36;
+
+  /* =========================================
+     TYPOGRAPHY – FONT FAMILY
+     ========================================= */
+  --font-sans: Arial, Arimo, sans-serif;
+
+  /* =========================================
+     TYPOGRAPHY – FONT WEIGHTS
+     ========================================= */
+  --weight-medium: 500;
+  --weight-normal: 400;
+
+  /* =========================================
+     TYPOGRAPHY – LINE HEIGHT
+     ========================================= */
+  --leading-default: 1.5;
+
+  /* =========================================
+     TYPOGRAPHY – FONT SIZES
+     ========================================= */
+  --text-h1: 1.5rem;
+  --text-h2: 1.25rem;
+  --text-h3: 1.125rem;
+  --text-h4: 1rem;
+
+  --text-body: 1rem;
+  --text-label: 1rem;
+
+  /* =========================================
+     TEXT COLORS
+     ========================================= */
+  --text-primary: #122b5b;
+  --text-muted: rgba(18, 43, 91, 0.7);
+  --text-accent: #c39a4e;
+
+  /* =========================================
+     SPACING SCALE
+     ========================================= */
+  --space-0-5: 2px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* =========================================
+     BORDER RADIUS
+     ========================================= */
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  /* =========================================
+     BUTTON COMPONENT COLORS & VARIANTS
+     ========================================= */
+  --btn-default-bg: var(--primary);
+  --btn-default-text: var(--brand-white);
+
+  --btn-secondary-bg: var(--secondary);
+  --btn-secondary-text: var(--brand-black);
+
+  --btn-outline-border: var(--primary);
+  --btn-outline-text: var(--primary);
+  --btn-outline-bg: transparent;
+
+  --btn-ghost-bg: transparent;
+  --btn-ghost-text: var(--primary);
+
+  --btn-destructive-bg: var(--destructive);
+  --btn-destructive-text: var(--brand-white);
+
+  --btn-link-text: var(--primary);
+  --btn-link-bg: transparent;
+
+  --btn-sm-padding: var(--space-2) var(--space-4);
+  --btn-md-padding: var(--space-3) var(--space-6);
+  --btn-lg-padding: var(--space-4) var(--space-8);
+
+  /* =========================================
+     BADGE COMPONENT COLORS
+     ========================================= */
+  --badge-default-bg: var(--primary);
+  --badge-default-text: var(--brand-white);
+
+  --badge-secondary-bg: var(--secondary);
+  --badge-secondary-text: var(--brand-black);
+
+  --badge-outline-bg: transparent;
+  --badge-outline-border: var(--primary);
+  --badge-outline-text: var(--primary);
+
+  --badge-destructive-bg: var(--destructive);
+  --badge-destructive-text: var(--brand-white);
+
+  /* CUSTOM BADGE STATES */
+  --badge-active: #122b5b;
+  --badge-premium: #c39a4e;
+  --badge-member: #b8dfff;
+  --badge-completed: #00c950;
+  --badge-pending: #f0b100;
+  --badge-overdue: #fb2c36;
+
+  /* =========================================
+     ICON SIZES
+     ========================================= */
+  --icon-xs: 12px;   /* h-3 w-3 → Inline text */
+  --icon-sm: 16px;   /* h-4 w-4 → Buttons, badges */
+  --icon-md: 20px;   /* h-5 w-5 → Medium UI elements */
+  --icon-lg: 24px;   /* h-6 w-6 → Stat cards, large buttons */
+  --icon-xl: 40px;   /* h-10 w-10 → Hero sections */
+}
